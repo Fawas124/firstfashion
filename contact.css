@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner h4 {
+    margin-top: 6rem;
+    text-align: center;
+    background: rgb(125, 211, 125);
+    height: 5rem;
+    font-weight: 700;
+    color: white;
+}
+h4 {
+    padding-top: 1.5rem;
+}
+/* Margin adjustment for a specific section */
+body > section:nth-child(2) > div > div:nth-child(1) {
+    margin-top: 5rem;
+}
+/* Style for the 'details' section header */
+.details h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10rem;
+  font-size: 4rem;
+  font-weight: 800;
+}
+/* Styling for iframes */
+iframe {
+    margin-top: 5rem;
+    width: 100%;
+    height: 100%;
+}
+.contact {
+    margin-top: 5rem;
+}
+
+/* Styling for submit buttons */
+button{
+    padding: 0.8rem 3rem;
+    background: darkgray;
+    border: none;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+button a:hover {
+    text-decoration: none;
+    color: black;
+}
+/* Margin and alignment adjustments for specific elements in a section */
+body > section:nth-child(3) > div > div > h5 {
+    margin-top: 15rem;
+}
+/* Margin and alignment adjustments for specific elements in a section */
+body > section:nth-child(3) > div > div > img {
+    margin-left: 4rem;
+    margin-top: 1rem;
+}
+/* Media query for responsive design */
+@media only screen and (max-width: 768px) {
+    .banner h4 {
+        margin-top: 6.5rem;
+    }
+}
+@media only screen and (max-width: 767px) {
+    iframe {
+        margin-top: 4rem;
+        width: 100%;
+        height: 100%;
+    }
+}
+@media only screen and (max-width: 320px) {
+    iframe {
+        margin-top: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+    body > section:nth-child(3) > div > div > img {
+        margin-left: 1.5rem;
+        margin-top: 1rem;
+    }
+}

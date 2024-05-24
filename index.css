@@ -1,0 +1,279 @@
+/* Reset default margin, padding, and box model for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Set the background color for the entire page */
+body {
+    background: whitesmoke;
+}
+/* Style the navigation bar */
+.navbar {
+    background: white;
+    padding-right: 10rem; /* Increase right padding */
+}
+/* Adjust the z-index for the dropdown menu to avoid overlapping issues */
+#navbarNav > ul > li.nav-item.dropdown.show > div {
+    z-index: 9999;
+}
+.mage {
+    width: 4.6rem;
+    margin-left: 8rem;
+    border-radius: 50px;
+}
+.navbar-nav {
+    padding-left: 20rem;
+}
+/* Style for the navigation menu items */
+#navbarNav > ul > li:nth-child(n) > a {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+/* Styling for the banner section */
+.banner img {
+    margin-top: 6.1rem;
+    width: 100%;
+}
+.banner .welcome {
+    text-align: center;
+    margin-top: -20rem;
+    color: black;
+    margin-left: 20rem;
+}
+.banner .we {
+    text-align: center;
+    color: black;
+    margin-left: 20rem;
+}
+/* Styling for product section */
+#prod > div{
+    background: darkgray;
+}
+#prod > div > h5 {
+    text-align: center;
+}
+#brand {
+    margin-top: 20rem;
+}
+#brand h1 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline red;
+}
+/* Styling for review section */
+#header > div > h3 {
+    margin-top: 4rem;
+}
+#bnt1 {
+    text-align: center;
+}
+#product-card > div > div > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#product {
+    margin-top: 5rem;
+}
+#product h1 {
+    text-align: center;
+    text-decoration: underline red;
+}
+#product-card > div > img {
+    background: darkgray;
+}
+#product-card {
+    background: rgb(106, 148, 150);
+}
+
+/* Styling for reviews */
+.review h1 {
+    margin-top: 5rem;
+    text-align: center;
+    text-decoration: underline red;
+}
+.review .p {
+    text-align: center;
+    font-weight: 800;
+}
+.review .card-title {
+    text-align: center;
+}
+.review .card-name {
+    text-align: center;
+    font-weight: 600;
+}
+.review .card-text {
+    text-align: center;
+}
+.review .h6 {
+    text-align: center;
+    font-weight: 800;
+}
+/* Styling for star icons */
+.fas.fa-star {
+    color: darkorange;
+}
+/* Styling for individual review cards */
+body > section.review > div.container > div > div:nth-child(n) > div {
+    margin-top: 3rem;
+    width: 20rem;
+}
+body > section.review > div.container > div > div:nth-child(n) > div:hover {
+    background: rgb(187, 183, 183);
+}
+/* Media query for responsive design */
+@media only screen and (max-width:991px) {
+    body > section.review > div.container > div > div:nth-child(1) > div {
+        margin-left: -5rem;
+    }
+}
+@media only screen and (max-width:920px) {
+    .navbar {
+        background: white;
+        padding-right: 1rem;
+    }
+    #brand {
+        margin-top: 13rem;
+    }
+    .banner .welcome {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -15rem;
+        color: black;
+    }
+}
+@media only screen and (max-width:820px) {
+
+}
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+      background: whitesmoke;
+      padding: 0 0.8rem;
+    }
+    .mage {
+      width: 4rem;
+      margin-top: 1rem;
+      margin-left: 2rem;
+      border-radius: 50px;
+    }
+    #brand {
+        margin-top: 5rem;
+    }
+    .product h1 {
+        font-size: 2rem;
+    }
+    .product h3 {
+        font-size: 1rem;        
+        font-family: 'Open Sans', sans-serif;
+    }
+    body > section.review > div.container > div > div:nth-child(1) > div {
+        margin-left: 2rem;
+    }
+    body > section.review > div.container > div > div:nth-child(2) > div {
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width:720px) {
+    .banner .welcome {
+        margin-top: -12rem;
+        color: black;
+        font-size: 1rem;
+    }
+    #brand {
+        margin-top: 10rem;
+    }
+}
+@media only screen and (max-width:570px) {
+    body > section.review > div.container > div > div:nth-child(n) > div {
+        margin-left: 1rem;
+    }
+}
+@media only screen and (max-width:540px) {
+    .banner .welcome {
+        margin-top: -10rem;
+        margin-left: 8rem;
+        font-size: 0.2rem;
+    }
+    .banner .we {
+        margin-top: 2rem;
+        margin-left: 8rem;
+        font-size: 0.2rem;
+    }
+}
+@media only screen and (max-width:468px) {
+    .banner .welcome {
+        margin-top: -8.5rem;
+        margin-left: 8rem;
+        font-size: 0.2rem;
+    }
+    .banner .we {
+        margin-left: 8rem;
+        font-size: 0.2rem;
+    }
+    body > section.review > div.container > div > div:nth-child(1) > div {
+        margin-left: -1rem;
+    }
+    body > section.review > div.container > div > div:nth-child(2) > div {
+        margin-left: -1rem;
+    }
+}
+@media only screen and (max-width:430px) {
+    body > section.review > div.container > div > div:nth-child(n) > div {
+        width: 250px;
+        margin-left: 1rem;
+    }
+}
+@media only screen and (max-width:380px) {
+    .banner .welcome {
+        margin-top: -7rem;
+        margin-left: 8rem;
+        font-size: 1px;
+    }
+    .banner .we {
+        margin-left: 8rem;
+        font-size: 1px;
+    }
+} 
+@media only screen and (max-width:360px) {
+    .banner .welcome {
+        margin-top: -7.5rem;
+        margin-left: 6rem;
+        font-size: 1px;
+    }
+    .banner .we {
+        margin-left: 6rem;
+        font-size: 1px;
+    }
+}
+@media only screen and (max-width:345px) {
+    body > section.review > div.container > div > div:nth-child(n) > div {
+        margin-left: -20px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .banner .welcome {
+        margin-top: -6.7rem;
+        margin-left: 3rem;
+        font-size: 1px;
+    }
+    .banner .we {
+        margin-left: 3rem;
+        font-size: 1px;
+    }
+}
+@media only screen and (max-width:300px) {
+    #brand {
+        margin-top: 2rem;
+    }
+    body > section.review > div.container > div > div:nth-child(n) > div {
+        margin-left: -45px;
+    }
+}

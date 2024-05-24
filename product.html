@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon link -->
+    <link rel="icon" href="f-fashion img/logo.jpg" type="images/x-icon">
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Custom CSS links -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="product.css">
+    <!-- Font Awesome CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Preconnect links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Products</title>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <a class="navbar-brand" href="first fashion.docx" onclick="download()"><img src="f-fashion img/logo.jpg " class="mage"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <!-- Navigation links -->
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="product.html" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Product
+                </a>
+                <div class="dropdown-menu p-2 h-auto">
+                  <a class="dropdown-item" href="#dior">Dior <i class="fas fa-tshirt"></i></a>
+                  <a class="dropdown-item" href="#gucci">Gucci <i class="fas fa-shoe-prints"></i></a>
+                  <a class="dropdown-item" href="#louisvuitton">Louis Vuitton <i class="fas fa-shopping-bag"></i></a>
+                  <a class="dropdown-item" href="#versace">Versace <i class="fas fa-clock"></i></a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav> 
+    </header>
+
+    <!-- The navigation links for each brands -->
+    <div class="container-fluid sticky-top">
+        <div class="nav2">
+          <ul>
+            <li><a href="#dior">DIOR</a></li>
+            <li><a href="#gucci">GUCCI</a></li>
+            <li><a href="#louisvuitton">LOUIS VUITTON</a></li>
+            <li><a href="#versace">VERSACE</a></li>
+          </ul>
+        </div>
+    </div>
+    <div class="research">
+        <input type="text" class="search-input" placeholder="Search for products.." name="search" id="search-input">
+        <button type="submit" class="search-btn" id="search"><i class="fas fa-search"></i></button>
+    </div>
+    <hr id="dior" class="my-4 mt-5">
+    <br>
+
+    <!-- This HTML structure displays products from the "DIOR" brand. -->
+    <div id="products">
+      <div class="container-fluid" id="header">
+        <div class="text-center">
+          <h5 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 2rem;">DIOR</h5>
+        </div>
+      </div>
+  
+    <div class="container-fluid padding">
+      <!-- Dior product cards -->
+        <div class="row padding my-3 mx-4" id="productsConDior">
+            <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior3.png" alt="Card image cap"
+                    height="200vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$80</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+            <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-trouser2.png" alt="Card image cap"
+                    height="200vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$70</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-bag3.png" alt="Card image cap"
+                    height="200vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$150</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-shoe2.png" alt="Card image cap"
+                    height="200vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$120</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-watch1.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$210</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior2.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$100</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior1.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Sweater</h6>
+                    <p class="card-text">$60</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-trouser.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Short</h6>
+                    <p class="card-text">$50</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-trouser4.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Short</h6>
+                    <p class="card-text">$80</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-shoe1.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$130</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-shoe3.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Heel</h6>
+                    <p class="card-text">$160</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-watch.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-watch2.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$250</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-bag4.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$160</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$180</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-trouser3.png" alt="Card image cap"
+                    height="210vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Short</h6>
+                    <p class="card-text">$40</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior4.png" alt="Card image cap"
+                    height="250vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$100</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-trouser1.png" alt="Card image cap"
+                    height="250vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$80</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-bag.png" alt="Card image cap"
+                    height="250vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$230</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/dior-bag2.png" alt="Card image cap"
+                    height="250vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Dior</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+    <hr id="gucci" class="my-4">
+    <br>
+
+    <div>
+        <div class="container-fluid" id="header">
+          <div class="text-center">
+            <h5 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 2rem;">GUCCI</h5>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid padding">
+      <!-- This HTML structure displays products from the "GUCCI" brand. -->
+        <div class="row padding my-3 mx-4" id="productsConGucci">
+            <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-logo2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$88.50</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-trouser1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$30.50</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-bag2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$100.22</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-watch2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-logo4.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$120</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-watch3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$260</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-trouser.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$90.99</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-bag3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$210</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-trouser2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$190</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-bag1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-shoe2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">shoe</h6>
+                    <p class="card-text">$110</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/Gucci-logo.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$210</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/Gucci-logo1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$140</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-logo3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$70</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-bag.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$250</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-shoe.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$180</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-shoe1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$130</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-watch.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$300</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-shoe3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/gucci-watch1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Gucci</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$310</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <hr id="louisvuitton" class="my-4">
+    <br>
+
+    <div>
+        <div class="container-fluid" id="header">
+          <div class="text-center">
+            <h5 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 2rem;">LOUIS VUITTON</h5>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid padding">
+      <!-- This HTML structure displays products from the "LOUIS VUITTON" brand. -->
+        <div class="row padding my-3 mx-4" id="productsConLouisVuitton">
+            <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$88.50</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-trouser1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Short</h6>
+                    <p class="card-text">$30.50</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-bag.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$100.22</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-watch1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv4.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Top</h6>
+                    <p class="card-text">$120</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-watch3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$260</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-trouser.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$90.99</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-bag4.webp" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$210</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-trouser2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$190</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-bag1.webp" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Mini-Bag</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-shoes2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">shoe</h6>
+                    <p class="card-text">$110</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$210</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$140</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$70</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-bag2.webp" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$250</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-shoes.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$180</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-shoes1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$130</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-watch.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$300</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-shoes3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-bag4.webp" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$310</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/lv-watch2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Louis Vuitton</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$310</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <hr id="versace" class="my-4">
+    <br>
+
+    <div>
+        <div class="container-fluid" id="header">
+          <div class="text-center">
+            <h5 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 2rem;">VERSACE</h5>
+          </div>
+        </div>
+    </div>
+
+    <div class="container-fluid padding">
+      <!-- This HTML structure displays products from the "VERSACE" brand. -->
+        <div class="row padding my-3 mx-4" id="productsConVersace">
+            <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$88.50</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-touser1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$30.50</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-bags.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$100.22</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-watch1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Top</h6>
+                    <p class="card-text">$120</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-watch3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$260</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-trouser.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$90.99</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-bags3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$210</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-trouser2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$190</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-bags1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-shoe2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">shoe</h6>
+                    <p class="card-text">$110</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$210</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-bags3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$140</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-touser1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Trouser</h6>
+                    <p class="card-text">$70</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-bags2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Bag</h6>
+                    <p class="card-text">$250</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-shoe.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$180</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-shoe1.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$130</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-watch2.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Watch</h6>
+                    <p class="card-text">$300</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace-shoe3.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">Shoe</h6>
+                    <p class="card-text">$200</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+                <div class="card my-3" style="border-radius: 5px;">
+                  <img class="card-img-top" id="shown" src="f-fashion img/versace.png" alt="Card image cap"
+                    height="300vh">
+                  <div class="card-body">
+                    <h5 class="card-title">Versace</h5>
+                    <h6 id="card-name">T-shirt</h6>
+                    <p class="card-text">$310</p>
+                    <a href="#" class="btn btn-outline-info" style="border-radius: 20px;">Explore</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </div>
+
+    <section> 
+        <!-- Remove the container if you want to extend the Footer to full width. -->
+  <div class="img-fluid mt-5">
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #929fba"
+            >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                About Our Brands
+              </h6>
+              <p>
+                Our brands is the best you have ever seen,
+                We have good quality products,
+                And you can come to us anytime
+                because we are always available for our customers
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
+              <p>
+                <a class="text-white" href="product.html#dior">Dior</a>
+              </p>
+              <p>
+                <a class="text-white" href="product.html#gucci">Gucci</a>
+              </p>
+              <p>
+                <a class="text-white" href="product.html#louisvuitton">Louis Vuitton</a>
+              </p>
+              <p>
+                <a class="text-white" href="product.html#versace">Versace</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+  
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+              <p><i class="fas fa-home mr-3"></i> Nigeria, Ogun state 112104, Alagbole</p>
+              <p><i class="fas fa-envelope mr-3"></i>firstfashion@gmail.com</p>
+              <p><i class="fas fa-phone mr-3"></i>+234 816 833 930 0</p>
+              <p><i class="fas fa-phone mr-3"></i>+224 906 743 626 5</p>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+  
+              <!-- Facebook -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #3b5998"
+                 href="https://www.facebook.com" target="_blank"
+                 role="button"
+                 ><i class="fab fa-facebook-f"></i
+                ></a>
+  
+              <!-- Twitter -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #55acee"
+                 href="https://www.twitter.com" target="_blank"
+                 role="button"
+                 ><i class="fab fa-twitter"></i
+                ></a>
+  
+              <!-- Google -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #dd4b39"
+                 href="https://www.google.com" target="_blank"
+                 role="button"
+                 ><i class="fab fa-google"></i
+                ></a>
+  
+              <!-- Instagram -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #ac2bac"
+                 href="https://www.instagram.com" target="_blank"
+                 role="button"
+                 ><i class="fab fa-instagram"></i
+                ></a>
+  
+              <!-- Linkedin -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #0082ca"
+                 href="https://www.linkedin.com" target="_blank"
+                 role="button"
+                 ><i class="fab fa-linkedin-in"></i
+                ></a>
+              <!-- Github -->
+              <a
+                 class="btn btn-primary btn-floating m-1"
+                 style="background-color: #333333"
+                 href="https://www.github.com" target="_blank"
+                 role="button"
+                 ><i class="fab fa-github"></i
+                ></a>
+            </div>
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2023 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >MDBootstrap.com</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+  <!-- End of .container -->
+      </section>
+
+      <!-- Include custom JavaScript and third-party libraries (jQuery, Popper.js, and Bootstrap) -->
+      <script src="product-data.js"></script>
+      <script src="product.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>

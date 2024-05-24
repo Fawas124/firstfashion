@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon link -->
+    <link rel="icon" href="f-fashion img/logo.jpg" type="images/x-icon">
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Custom CSS links -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Preconnect links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>Versace</title>
+    <style>
+        .small-img-group{
+            display: flex;
+        }
+        .small-img-col{
+            flex-basis: 50%;
+            cursor: pointer;
+        }
+      #testimonials{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 100%;
+      }
+      .testimonial-heading{
+          padding: 10px 20px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+      .testimonial-heading{
+          padding: 10px 20px;
+          font-size: 2.2rem;
+          font-weight: 500;
+          background-color: rgb(125, 211, 125);
+      }
+      .testimonial-box-container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          width: 100%;
+      }
+      .testimonial-box{
+          width: 500px;
+          box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+          background-color: #fff;
+          padding: 20px;
+          margin: 15px;
+          cursor: pointer;
+      }
+      .profile-img{
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          overflow: hidden;
+          margin-right: 10px;
+      }
+      .profile-img img{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+      }
+      .profile{
+          display: flex;
+          align-items: center;
+      }
+      .name-user{
+          display: flex;
+          flex-direction: column;
+      }
+      .name-user strong{
+          font-size: 1.1rem;
+          letter-spacing: 0.5px;
+      }
+      .name-user span{
+          color: darkgray;
+          font-size: 0.8rem;
+      }
+      .reviews{
+          color: darkorange;
+      }
+      .box-top{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-bottom: 20px;
+      }
+      .customers-comment{
+          font-size: 0.9rem;
+          color: darkgray;
+          font-weight: 600;
+      }
+      .testimonial-box:hover{
+          transform: translateY(-10px);
+          transition: all ease 0.3s;
+      }
+  </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+          <a class="navbar-brand" href="#"><img src="f-fashion img/logo.jpg " class="mage"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <!-- Navigation links -->
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="product.html" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Product
+                </a>
+                <div class="dropdown-menu p-2 h-auto">
+                  <a class="dropdown-item" href="product.html#dior">Dior <i class="fas fa-tshirt"></i></a>
+                  <a class="dropdown-item" href="product.html#gucci">Gucci <i class="fas fa-shoe-prints"></i></a>
+                  <a class="dropdown-item" href="product.html#louisvuitton">Louis Vuitton <i class="fas fa-shopping-bag"></i></a>
+                  <a class="dropdown-item" href="product.html#versace">Versace <i class="fas fa-clock"></i></a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>  
+  </header>
+
+  <!-- Section for displaying product information -->
+  <section class=" container sproduct my-5 pt-5 ">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+           <!-- Main product image -->
+            <img class="img-fluid w-100 pb-1" src="f-fashion img/versace-trouser.png" id="mainImg" alt="">
+            <!-- Small image thumbnails for product variations -->
+            <div class="small-img-group">
+              <div class="small-img-col">
+                <img src="f-fashion img/versace-trouser.png" width="100%" class="small-img" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="f-fashion img/versace-bags2.png" width="100%" class="small-img" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="f-fashion img/versace3.png" width="100%" class="small-img" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="f-fashion img/versace-watch.png" width="100%" class="small-img" alt="">
+              </div>
+              <div class="small-img-col">
+                <img src="f-fashion img/versace-shoe2.png" width="100%" class="small-img" alt="">
+              </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-12">
+          <!-- Product details -->
+            <h2>VERSACE</h2>
+            <h3 class="">Trouser <br> Bag <br>T-shirt<br>watch <br> Shoe</h3>
+            <h4  class="mt-5 ">Product Details</h4>
+            <!-- Product description -->
+            <span style="font-weight: 600;">"Elevate your style with Versace's exquisite fashion collection. Explore tailored trousers, luxurious bags, statement T-shirts, stylish watches, and elegant shoes, all designed to embody the essence of luxury and sophistication."</span>
+        </div>
+    </div>
+  </section>
+
+  <!-- Section for customer testimonials -->
+  <section id="testimonials">
+    <div class="testimonial-heading">
+        <h1>Customers Says</h1>
+    </div>
+
+    <div class="testimonial-box-container">
+      <!-- Testimonial Box 1 -->
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="f-fashion img/prof7.webp" width="100px">
+                    </div>
+                    <div class="name-user">
+                        <strong>Michael Jackson</strong>
+                        <span>@MichaelJackson</span>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <!-- Customer's comment -->
+            <div class="customers-comment">
+              "Hats off to this top-tier fashion brand! Their attire is not only stylish but incredibly cozy. Exceptional customer support, and my delivery was right on schedule."
+            </div>
+        </div>
+        <!-- Testimonial Box 2 -->
+        <div class="testimonial-box">
+            <div class="box-top">
+                <div class="profile">
+                    <div class="profile-img">
+                        <img src="f-fashion img/prof8.webp" width="100px">
+                    </div>
+                    <div class="name-user">
+                        <strong>Amara Eze</strong>
+                        <span>@Amara Eze</span>
+                    </div>
+                </div>
+                <div class="reviews">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+            <!-- Customer's comment -->
+            <div class="customers-comment">
+              "Big applause to this high-quality fashion label! Their outfits combine great looks and supreme comfort. Exceptional service, and my package arrived punctually."
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section>
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="img-fluid mt-5">
+<!-- Footer -->
+<footer
+        class="text-center text-lg-start text-white"
+        style="background-color: #929fba"
+        >
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">
+            About Our Brands
+          </h6>
+          <p>
+            Our brands are the best you have ever seen,
+            We have good quality products,
+            And you can come to us anytime
+            because we are always available for our customers
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
+          <p>
+            <a class="text-white" href="product.html#dior">Dior</a>
+          </p>
+          <p>
+            <a class="text-white" href="product.html#gucci">Gucci</a>
+          </p>
+          <p>
+            <a class="text-white" href="product.html#louisvuitton">Louis Vuitton</a>
+          </p>
+          <p>
+            <a class="text-white" href="product.html#versace">Versace</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none" />
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p><i class="fas fa-home mr-3"></i> Nigeria, Ogun state 112104, Alagbole</p>
+          <p><i class="fas fa-envelope mr-3"></i>firstfashion@gmail.com</p>
+          <p><i class="fas fa-phone mr-3"></i>+234 816 833 930 0</p>
+          <p><i class="fas fa-phone mr-3"></i>+224 906 743 626 5</p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+          <!-- Facebook -->
+          <a
+             class="btn btn-primary btn-floating m-1"
+             style="background-color: #3b5998"
+             href="https://www.facebook.com" target="_blank"
+             role="button"
+             ><i class="fab fa-facebook-f"></i
+            ></a>
+
+          <!-- Twitter -->
+          <a
+             class="btn btn-primary btn-floating m-1"
+             style="background-color: #55acee"
+             href="https://www.twitter.com" target="_blank"
+             role="button"
+             ><i class="fab fa-twitter"></i
+            ></a>
+
+          <!-- Google -->
+          <a
+             class="btn btn-primary btn-floating m-1"
+             style="background-color: #dd4b39"
+             href="https://www.google.com" target="_blank"
+             role="button"
+             ><i class="fab fa-google"></i
+            ></a>
+
+          <!-- Instagram -->
+          <a
+             class="btn btn-primary btn-floating m-1"
+             style="background-color: #ac2bac"
+             href="https://www.instagram.com" target="_blank"
+             role="button"
+             ><i class="fab fa-instagram"></i
+            ></a>
+
+          <!-- Linkedin -->
+          <a
+             class="btn btn-primary btn-floating m-1"
+             style="background-color: #0082ca"
+             href="https://www.linkedin.com" target="_blank"
+             role="button"
+             ><i class="fab fa-linkedin-in"></i
+            ></a>
+          <!-- Github -->
+          <a
+             class="btn btn-primary btn-floating m-1"
+             style="background-color: #333333"
+             href="https://www.github.com" target="_blank"
+             role="button"
+             ><i class="fab fa-github"></i
+            ></a>
+        </div>
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div
+       class="text-center p-3"
+       style="background-color: rgba(0, 0, 0, 0.2)"
+       >
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/"
+       >MDBootstrap.com</a
+      >
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</div>
+<!-- End of .container -->
+  </section>
+
+  <script>
+    // Get the main product image and small image thumbnails
+    var mainImg = document.getElementById("mainImg")
+    var smallImg = document.getElementsByClassName("small-img")
+
+    // Assign a click event to each small image thumbnail to change the main image
+    smallImg[0].onclick = function(){
+        mainImg.src = smallImg[0].src
+    }
+    smallImg[1].onclick = function(){
+        mainImg.src = smallImg[1].src
+    }
+    smallImg[2].onclick = function(){
+        mainImg.src = smallImg[2].src
+    }
+    smallImg[3].onclick = function(){
+        mainImg.src = smallImg[3].src
+    }
+    smallImg[4].onclick = function(){
+        mainImg.src = smallImg[4].src
+    }
+  </script>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>

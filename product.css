@@ -1,0 +1,69 @@
+/* Resetting default styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* Styling the navigation bar */
+.nav2 {
+    background: darkgrey;
+    text-align: center;
+}
+/* Styling the search bar */
+.nav2 ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.nav2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+.research {
+    margin: auto;
+    max-width: 300px;
+}
+
+.research input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+.research input:focus {
+    width: 80%;
+}
+
+.research button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+/* Pseudo-element for clearing floats */
+.research::after {
+    content: "";
+    display: table;
+}
+/* Styling for images with the ID "shown" */
+#shown {
+    background: darkgray;
+}
+/* Background color for specific div elements */
+body > div:nth-child(n) {
+    background: rgb(106, 148, 150);
+}

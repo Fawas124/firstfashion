@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon link -->
+    <link rel="icon" href="f-fashion img/logo.jpg" type="images/x-icon">
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- Custom CSS links -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Font Awesome CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Preconnect links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Google Fonts link -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>First-Fashion</title>
+</head>
+<body>
+    
+    <header>
+          <nav class="navbar navbar-expand-lg navbar-light  fixed-top">
+            <a class="navbar-brand" href="first fashion.docx" onclick="download()"><img src="f-fashion img/logo.jpg " class="mage"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <!-- Navigation links -->
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="product.html" role="button" data-toggle="dropdown" aria-expanded="false">
+                    Product
+                  </a>
+                  <div class="dropdown-menu p-2 h-auto">
+                    <a class="dropdown-item" href="product.html#dior">Dior <i class="fas fa-tshirt"></i></a>
+                    <a class="dropdown-item" href="product.html#gucci">Gucci <i class="fas fa-shoe-prints"></i></a>
+                    <a class="dropdown-item" href="product.html#louisvuitton">Louis Vuitton <i class="fas fa-shopping-bag"></i></a>
+                    <a class="dropdown-item" href="product.html#versace">Versace <i class="fas fa-clock"></i></a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </nav>  
+              <div class="banner">
+                <img src="f-fashion img/class.jpg" >
+                <h3 class="welcome">Welcome to our world of fashion </h3>
+                <p class="we"> We deliver the best quality at affordables</p>
+                <p class="we">  We are available to our customers 24/7</p>
+          </div>
+    </header>
+
+    <!-- Section for Brand Logos -->
+    <div id="brand">
+      <div class="container-fluid" id="header">
+        <div class="text-center">
+          <h1>Our Brands</h1>
+        </div>
+      </div>
+
+      <!-- Brand Cards -->
+      <div class="container-fluid padding" >
+        <div class="row padding my-3 mx-4">
+          <!-- Individual Brand Card (Dior) -->
+          <div class="col-sm-12 col-md-6 col-lg-3" >
+            <div class="card my-3" style="border-radius: 5px;" id="prod">
+              <a href="product.html#dior"><img class="card-img-top"  src="f-fashion img/logo-dior.jpg" height="250vh"></a>
+              <div class="card-body">
+                <h5 class="card-title">Dior</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Individual Brand Card (Gucci) -->
+          <div class="col-sm-12 col-md-6 col-lg-3" >
+            <div class="card my-3" style="border-radius: 5px;" id="prod">
+              <a href="product.html#gucci"><img class="card-img-top" src="f-fashion img/logo-gucci.jpg" height="250vh"></a>
+              <div class="card-body">
+                <h5 class="card-title">Gucci</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Individual Brand Card (louis vuitton) -->
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card my-3" style="border-radius: 5px;" id="prod">
+              <a href="product.html#louis vuitton"><img class="card-img-top"  src="f-fashion img/logo-louis1.jpg" height="250vh" ></a>
+              <div class="card-body">
+                <h5 class="card-title">Louis Vuitton</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Individual Brand Card (Versace) -->
+          <div class="col-sm-12 col-md-6 col-lg-3" >
+            <div class="card my-3" style="border-radius: 5px;" id="prod">
+              <a href="product.html#versace"><img class="card-img-top"  src="f-fashion img/logo-versace.webp" height="250vh"></a>
+              <div class="card-body">
+                <h5 class="card-title">Versace</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </div>
+
+    <!-- Section for Featured Products -->
+    <div id="product">
+      <div class="container-fluid" id="header">
+        <div class="text-center">
+          <h1>Featured Products</h1>
+        </div>
+      </div>
+
+      <!-- Product Cards -->
+      <div class="container-fluid padding">
+        <div class="row padding my-3 mx-4">
+          <!-- Individual Product Card (Dior) -->
+          <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+            <div class="card my-3" style="border-radius: 5px;">
+              <!-- Product Images (shown and hidden) -->
+              <img class="card-img-top" id="shown" src="f-fashion img/dior.png" alt="Card image cap"
+                height="270vh">
+              <img class="card-img-top" id="hidden" src="f-fashion img/dior-trouser2.png" alt="Card image cap"
+                height="270vh">
+              <div class="card-body">
+                <h5 class="card-title">Dior</h5>
+                <button onclick="window.location.href='dior.html'" id="bnt1" class="btn btn-outline-info" style="border-radius: 20px;">view details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Individual Product Card (Gucci) -->
+          <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+            <!-- Product Images (shown and hidden) -->
+            <div class="card my-3" style="border-radius: 5px;">
+              <img class="card-img-top" id="shown" src="f-fashion img/gucci-trouser.png" alt="Card image cap"
+                height="270vh">
+              <img class="card-img-top" id="hidden" src="f-fashion img/Gucci-logo1.png" alt="Card image cap"
+                height="270vh">
+              <div class="card-body">
+                <h5 class="card-title">Gucci</h5>
+                <button onclick="window.location.href='gucci.html'" id="bnt1" class="btn btn-outline-info" style="border-radius: 20px;">view details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Individual Product Card (Louis Vuitton) -->
+          <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+            <!-- Product Images (shown and hidden) -->
+            <div class="card my-3" style="border-radius: 5px;">
+              <img class="card-img-top" id="shown" src="f-fashion img/lv1.png" alt="Card image cap"
+                height="270vh">
+              <img class="card-img-top" id="hidden" src="f-fashion img/lv-trouser.png" alt="Card image cap"
+                height="270vh">
+              <div class="card-body">
+                <h5 class="card-title">Louis Vuitton</h5>
+                <button onclick="window.location.href='lv.html'" id="bnt1" class="btn btn-outline-info" style="border-radius: 20px;">view details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Individual Product Card (Versace) -->
+          <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+            <!-- Product Images (shown and hidden) -->
+            <div class="card my-3" style="border-radius: 5px;">
+              <img class="card-img-top" id="shown" src="f-fashion img/versace-trouser.png" alt="Card image cap"
+                height="270vh">
+              <img class="card-img-top" id="hidden" src="f-fashion img/versace3.png" alt="Card image cap"
+                height="270vh">
+              <div class="card-body">
+                <h5 class="card-title">Versace</h5>
+                <button onclick="window.location.href='versace.html'" id="bnt1" class="btn btn-outline-info" style="border-radius: 20px;">view details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </div>
+
+    <!-- Section for Hot Weekly Deals -->
+    <div id="product2">
+      <div class="container-fluid" id="header">
+        <div class="text-center">
+          <h3>Hot Weekly Deals</h3>
+        </div>
+      </div>
+
+      <!-- Weekly Deal Product Cards -->
+      <div class="container-fluid padding">
+        <div class="row padding my-3 mx-4">
+          <!-- Individual Weekly Deal Card (Dior, Gucci, Louis Vuitton, Versace) -->
+          <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+            <div class="card my-3" style="border-radius: 5px;">
+              <img class="card-img-top" id="shown" src="f-fashion img/dior-bag1.png" alt="Card image cap"
+                height="300vh">
+              <img class="card-img-top" id="hidden" src="f-fashion img/dior-shoe3.png" alt="Card image cap"
+                height="300vh">
+              <div class="card-body">
+                <h5 class="card-title">Dior</h5>
+                <button onclick="window.location.href='dior.html'" id="bnt1" class="btn btn-outline-info" style="border-radius: 20px;">view details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+            <div class="card my-3" style="border-radius: 5px;">
+              <img class="card-img-top" id="shown" src="f-fashion img/gucci-bag2.png" alt="Card image cap"
+                height="300vh">
+              <img class="card-img-top" id="hidden" src="f-fashion img/Gucci-shoe2.png" alt="Card image cap"
+                height="300vh">
+              <div class="card-body">
+                <h5 class="card-title">Gucci</h5>
+                <button onclick="window.location.href='gucci.html'" id="bnt1" class="btn btn-outline-info" style="border-radius: 20px;">view details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+            <div class="card my-3" style="border-radius: 5px;">
+              <img class="card-img-top" id="shown" src="f-fashion img/lv-shoes1.png" alt="Card image cap"
+                height="300vh">
+              <img class="card-img-top" id="hidden" src="f-fashion img/lv-watch1.png" alt="Card image cap"
+                height="300vh">
+              <div class="card-body">
+                <h5 class="card-title">Louis Vuitton</h5>
+                <button onclick="window.location.href='lv.html'" id="bnt1" class="btn btn-outline-info" style="border-radius: 20px;">view details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3" id="product-card">
+            <div class="card my-3" style="border-radius: 5px;">
+              <img class="card-img-top" id="shown" src="f-fashion img/versace-shoe2.png" alt="Card image cap"
+                height="300vh">
+              <img class="card-img-top" id="hidden" src="f-fashion img/versace-watch1.png" alt="Card image cap"
+                height="300vh">
+              <div class="card-body">
+                <h5 class="card-title">Versace</h5>
+                <button onclick="window.location.href='versace.html'" id="bnt1" class="btn btn-outline-info" style="border-radius: 20px;">view details</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+    </div>
+
+    <!-- Section for Customer Reviews -->
+    <section class="review">
+      <div>
+        <h1>WHAT OUR CUSTOMERS SAYS</h1>
+        <p class="p">"Our fashion products speaks quality"</p>
+      </div>
+  
+      <!-- Customer Review Cards -->
+        <div class="container " >
+          <div class="row padding my-3 mx-4">
+            <!-- Individual Customer Review Card (Customer 1) -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="" >
+              <div class="card " style="border-radius: 5px;" >
+                <img class="card-img-top" id="mg1" src="f-fashion img/review1.jpeg" style="height: 50vh; width: 100%;">
+                <div class="card-body">
+                  <h5 class="card-title">"First fashion website: Impressive design, minor bugs, promising start overall."</h5>
+                  <h6 class="card-name">Rating</h6>
+                  <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                  <h6 class="h6">United State</h6>
+                </div>
+              </div>
+            </div>
+            <!-- Individual Customer Review Card (Customer 2) -->
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6" id="">
+              <div class="card " style="border-radius: 5px;" >
+                <img class="card-img-top" id="mg2" src="f-fashion img/review.png" style="height: 50vh;">
+                <div class="card-body">
+                  <h5 class="card-title">"First fashion website: Stylish, informative, creative, room for improvement in load times."</h5>
+                  <h6 class="card-name">Rating</h6>
+                  <p class="card-text"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                  <h6 class="h6">Nigeria</h6>
+                </div>
+              </div>
+            </div> 
+      </div>
+    </section>
+
+    <section>
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="img-fluid mt-5">
+  <!-- Footer -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: #929fba"
+          >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              About Our Brands
+            </h6>
+            <p>
+              Our brands are the best you have ever seen,
+              We have good quality products,
+              And you can come to us anytime
+              because we are always available for our customers
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Brands</h6>
+            <p>
+              <a class="text-white" href="product.html#dior">Dior</a>
+            </p>
+            <p>
+              <a class="text-white" href="product.html#gucci">Gucci</a>
+            </p>
+            <p>
+              <a class="text-white" href="product.html#louisvuitton">Louis Vuitton</a>
+            </p>
+            <p>
+              <a class="text-white" href="product.html#versace">Versace</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> Nigeria, Ogun state 112104, Alagbole</p>
+            <p><i class="fas fa-envelope mr-3"></i>firstfashion@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i>+234 816 833 930 0</p>
+            <p><i class="fas fa-phone mr-3"></i>+224 906 743 626 5</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+            <!-- Facebook -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #3b5998"
+               href="https://www.facebook.com" target="_blank"
+               role="button"
+               ><i class="fab fa-facebook-f"></i
+              ></a>
+
+            <!-- Twitter -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #55acee"
+               href="https://www.twitter.com" target="_blank"
+               role="button"
+               ><i class="fab fa-twitter"></i
+              ></a>
+
+            <!-- Google -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #dd4b39"
+               href="https://www.google.com" target="_blank"
+               role="button"
+               ><i class="fab fa-google"></i
+              ></a>
+
+            <!-- Instagram -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #ac2bac"
+               href="https://www.instagram.com" target="_blank"
+               role="button"
+               ><i class="fab fa-instagram"></i
+              ></a>
+
+            <!-- Linkedin -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #0082ca"
+               href="https://www.linkedin.com" target="_blank"
+               role="button"
+               ><i class="fab fa-linkedin-in"></i
+              ></a>
+            <!-- Github -->
+            <a
+               class="btn btn-primary btn-floating m-1"
+               style="background-color: #333333"
+               href="https://www.github.com" target="_blank"
+               role="button"
+               ><i class="fab fa-github"></i
+              ></a>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2023 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/"
+         >MDBootstrap.com</a
+        >
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</div>
+<!-- End of .container -->
+    </section>
+
+    <!-- Include custom JavaScript and third-party libraries (jQuery, Popper.js, and Bootstrap) -->
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+</body>
+</html>
